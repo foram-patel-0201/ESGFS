@@ -133,11 +133,10 @@ public class Main {
             String sem = obj.next();
             System.out.print("Enter your department: ");
             String dep = obj.next();
-            Semester currentStu = student.getSem();
+            Semester currentStu = new Semester();
             currentStu.setYear(year);
             currentStu.setSemester(sem);
             student.setSem(currentStu);
-            currentStu.create_CourseList(Integer.parseInt(year), sem, dep);
         }
         if (i == 11) {
             System.out.print("Enter course name - ");

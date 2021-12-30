@@ -153,13 +153,23 @@ public class Semester {
     }
 
     public Boolean modifyExam(String exam_type, String max_marks, String weightage, String course, String date, String obt_marks) {
-        for (int i = 0; i < examLinkedList.size(); i++) {
-            if (examLinkedList.get(i).getCourseName().equals(course) && examLinkedList.get(i).getExamType().equals(exam_type) && examLinkedList.get(i).getExamDate().equals(date)) {
-                examLinkedList.set(i, new Exam(exam_type, max_marks, weightage, obt_marks, course, date));
-                return true; // exam found and modified
+        try {
+            for (int i = 0; i < examLinkedList.size(); i++) {
+                if (examLinkedList.get(i).getCourseName().equals(course) && examLinkedList.get(i).getExamType().equals(exam_type) && examLinkedList.get(i).getExamDate().equals(date)) {
+                    examLinkedList.set(i, new Exam(exam_type, max_marks, weightage, obt_marks, course, date));
+                    return true; // exam found and modified
+                }
+                else
+                    throw new ExamNotFoundException("Exam not found");
             }
         }
-        return false; // exam not found
+        catch (ExamNotFoundException e){
+
+            System.out.println("Exam Not Found");
+            return false; // exam not found
+        }
+
+        return false;
     }
 
     // Methods for Exam Class
