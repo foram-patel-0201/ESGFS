@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0efbb6ae-2712-49a7-a3ce-ca1276f4e8af" name="Changes" comment="Pata nahi par kuch to he">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TSSFS/Academics/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TSSFS/Academics/Exam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TSSFS/Academics/Semester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TSSFS/Academics/Semester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TSSFS/ExtraCurricular/Club.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TSSFS/ExtraCurricular/Club.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TSSFS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TSSFS/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Academics/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Academics/Semester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExtraCurricular/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExtraCurricular/Club.java" afterDir="false" />
+    <list default="true" id="0efbb6ae-2712-49a7-a3ce-ca1276f4e8af" name="Changes" comment="Exception added">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640843970744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exception added">
+      <created>1640854677342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640854677342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gymkhana and Committee added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gymkhana and Committee added" />
+    <MESSAGE value="Exception added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception added" />
   </component>
 </project>
